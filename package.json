@@ -1,0 +1,31 @@
+{
+  "name": "umi-plugin-autopolyfill",
+  "version": "1.0.0",
+  "description": "umi plugin for polyfill.io",
+  "authors": {
+    "name": "Randy",
+    "email": "randypriv@gmail.com"
+  },
+  "repository": "djyde/umi-plugin-autopolyfill",
+  "peerDependencies": {
+    "umi": "2.x"
+  },
+  "keywords": [
+    "polyfill",
+    "umi",
+    "plyfill.io",
+    "autopolyfill"
+  ],
+  "scripts": {
+    "dev": "APP_ROOT=example umi dev",
+    "prepublishOnly": "np --no-cleanup --yolo --no-publish"
+  },
+  "devDependencies": {
+    "np": "^3.0.4",
+    "umi": "^2.8.11"
+  },
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT"
+}
