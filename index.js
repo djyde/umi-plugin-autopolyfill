@@ -20,6 +20,6 @@ module.exports = function (api, options = {}) {
 
   // Example: output the webpack config
   api.addHTMLHeadScript({
-    src: `https://polyfill.io/v3/polyfill.min.js?${querystring}`
+    src: `//polyfill.io/v3/polyfill.min.js?${querystring}`
   })
 }
