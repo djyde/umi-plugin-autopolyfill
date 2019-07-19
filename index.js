@@ -3,6 +3,7 @@
 
 module.exports = function (api, options = {}) {
 
+  const endpoint = options.endpoint || '//polyfill.io/v3/polyfill.min.js'
   const features = options.features || []
   const flags = options.flags || 'gated'
 
@@ -20,6 +21,6 @@ module.exports = function (api, options = {}) {
 
   // Example: output the webpack config
   api.addHTMLHeadScript({
-    src: `//polyfill.io/v3/polyfill.min.js?${querystring}`
+    src: `${endpoint}?${querystring}`
   })
 }

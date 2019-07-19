@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-autopolyfill",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "umi plugin for polyfill.io",
   "authors": {
     "name": "Randy",
