@@ -30,7 +30,7 @@ export default {
 
 ## Options
 
-- **features**: Array<string> Polyfill you want to request. See [available polyfills](https://polyfill.io/v3/url-builder/)
+- **features**: Array<string> Polyfill you want to request. See all [available polyfills](https://polyfill.io/v3/url-builder/)
 - **flags**: `gated` | `always` Configuration settings for every polyfill being requested. Possible values are `always` and `gated`. Setting `always` will return all requested polyfills to every browser. Setting `gated` will wrap every polyfill within a feature detection, only adding the polyfill if the feature was not detected. To enable both settings, separate them with a comma E.G. `always,gated`.
 
 ## LICENSE

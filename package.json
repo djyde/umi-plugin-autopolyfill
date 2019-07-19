@@ -6,7 +6,10 @@
     "name": "Randy",
     "email": "randypriv@gmail.com"
   },
-  "repository": "djyde/umi-plugin-autopolyfill",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djyde/umi-plugin-autopolyfill.git"
+  },
   "peerDependencies": {
     "umi": "2.x"
   },
