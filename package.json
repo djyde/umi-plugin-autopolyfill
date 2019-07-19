@@ -20,8 +20,7 @@
     "autopolyfill"
   ],
   "scripts": {
-    "dev": "APP_ROOT=example umi dev",
-    "prepublishOnly": "np --no-cleanup --yolo --no-publish"
+    "dev": "APP_ROOT=example umi dev"
   },
   "devDependencies": {
     "np": "^3.0.4",
